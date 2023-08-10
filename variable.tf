@@ -1,7 +1,7 @@
 variable "aws_access_key" {
-    default = "AKIAXGWLFBDPFNM5VTEA"
+    default = "AKIA3Q6GFJRWDLK2OQ7S"
   }
   
 variable "aws_secret_key"{
-    default = "bbGsPFaE2PcadOD37omoWf75/XIF/Wi5vKv6ZGDz"
+    default = "o5j7tWZljcc/N4ejPQ/pP2Rw0wkZXLnCXGPmlQFx"
 }
