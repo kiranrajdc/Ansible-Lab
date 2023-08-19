@@ -77,7 +77,7 @@ resource "aws_route_table_association" "RTA" {
   route_table_id = aws_route_table.RT.id
 }
 
-#EC2 Creation
+#EC2 Creation 
 #1st Windows server
 
 resource "aws_instance" "Win-1" {
@@ -148,7 +148,7 @@ resource "aws_instance" "Win-3" {
 }
 }
 
-#Ansible master server
+#Ansible master server ubuntu
 
 resource "aws_instance" "Ansible-Master" {
   ami = "ami-0149b2da6ceec4bb0"
