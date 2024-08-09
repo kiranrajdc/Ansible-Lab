@@ -81,7 +81,7 @@ resource "aws_route_table_association" "RTA" {
 #1st Windows server
 
 resource "aws_instance" "Win-1" {
-  ami = "ami-0fc682b2a42e57ca2"
+  ami = "ami-07d9456e59793a7d5"
   subnet_id = aws_subnet.SUBNETFROMTF.id
   instance_type = "t2.micro"
   key_name = "tf-key-pair"
@@ -104,7 +104,7 @@ resource "aws_instance" "Win-1" {
 #2nd Windows server
 
 resource "aws_instance" "Win-2" {
-  ami = "ami-0fc682b2a42e57ca2"
+  ami = "ami-07d9456e59793a7d5"
   subnet_id = aws_subnet.SUBNETFROMTF.id
   instance_type = "t2.micro"
   key_name = "tf-key-pair"
@@ -126,7 +126,7 @@ resource "aws_instance" "Win-2" {
 
 #3rd Windows server
 resource "aws_instance" "Win-3" {
-  ami = "ami-0fc682b2a42e57ca2"
+  ami = "ami-07d9456e59793a7d5"
   subnet_id = aws_subnet.SUBNETFROMTF.id
   instance_type = "t2.micro"
   key_name = "tf-key-pair"
